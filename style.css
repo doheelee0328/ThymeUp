@@ -1,6 +1,147 @@
 * {
-	margin: 0;
-	padding: 0;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  min-height: 100vh;
+  background-color: rgb(44, 60, 75, 0.9);
+  color: #ffff;
+  gap: 22px;
+}
+
+.logo {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  top: -10px;
+}
+
+.logo-name {
+  font-size: 48px;
+  font-family: 'Flavors', cursive;
+  letter-spacing: 5px;
+}
+
+input {
+  width: 283px;
+  height: 44px;
+  border-radius: 10px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.input-title {
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+.check-box {
+  width: 15px;
+  height: 15px;
+  background-color: #ffff;
+}
+.username-container {
+  padding-bottom: 10px;
+}
+.container {
+  display: flex;
+  gap: 50px;
+  font-size: 17px;
+}
+.remember-container {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.remember-me {
+  padding-left: 5px;
+}
+
+.login {
+  width: 155px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 50px;
+  border: none;
+  background-color: rgb(162, 73, 33, 66%);
+  font-weight: bolder;
+  color: #ffff;
+  cursor: pointer;
+}
+.login:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 5px 5px rgb(44, 60, 75, 0.6);
+  background-color: rgb(162, 73, 33, 46%);
+}
+.login:active {
+  background-color: rgb(162, 73, 33, 54%);
+}
+.create-one {
+  color: #ffff;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.sign-in-with-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.icon-container {
+  display: flex;
+  gap: 30px;
+  padding-top: 20px;
+}
+.icon {
+  width: 120px;
+  height: 40px;
+  background-color: #ffff;
+  font-size: 15px;
+  border: none;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.sign-in-with:before {
+  content: '';
+  height: 1px;
+  width: 130px;
+  background-color: #ffff;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+.sign-in-with:after {
+  content: '';
+  height: 1px;
+  width: 130px;
+  background-color: #ffff;
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+svg {
+  width: 20px;
+  height: 20px;
+  margin-top: -2px;
 }
 
 html {
@@ -154,4 +295,5 @@ hr {
 	margin-top: 20px;
 	font-size: 12px;
 	letter-spacing: 0.8px;
+
 }
