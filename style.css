@@ -1,1 +1,157 @@
+* {
+	margin: 0;
+	padding: 0;
+}
 
+html {
+	box-sizing: border-box;
+	background-color: rgb(44, 60, 75);
+}
+
+body {
+	max-width: 1450px;
+	margin: 0 auto;
+	color: aliceblue;
+	font-family: 'Roboto', sans-serif;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.header {
+	width: 100%;
+	height: 600px;
+	background-image: url(./img/kitchen.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	margin-bottom: 100px;
+}
+
+.nav {
+	background-color: rgb(0, 0, 0, 0.4);
+	max-width: 100%;
+	height: 30px;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#search {
+	width: 300px;
+	height: 40px;
+	padding: 5px;
+	border-radius: 10px 0px 0px 10px;
+	border: none;
+}
+
+#search:focus {
+	outline: none;
+}
+
+.btn-search {
+	height: 40px;
+	width: 30px;
+	margin-left: -10px;
+	border: none;
+}
+
+.user {
+	/* background-color: white; */
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+	background-image: url(./img/chef.jpg);
+	background-size: cover;
+}
+
+.bar-bottom {
+	width: 100%;
+	height: 30px;
+	background-color: #323232;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	max-width: 1200px;
+	margin: 0 auto;
+	/* width: 1450px; */
+}
+
+.food {
+	display: flex;
+	justify-content: space-between;
+	width: 950px;
+	margin-bottom: 80px;
+	/* transition: 0.3s; */
+}
+.image {
+	width: 450px;
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	box-shadow: 5px 10px 20px black;
+	transition: 0.3s;
+	border-radius: 10px;
+}
+
+.image:hover {
+	transform: scale(1.01);
+	box-shadow: 5px 10px 40px black;
+}
+
+.image:active {
+	transform: scale(0.99);
+	box-shadow: 2px 7px 12px black;
+}
+
+.image-1 {
+	background-image: url(./img/chicken.jpg);
+}
+.image-2 {
+	background-image: url(./img/lamb.jpg);
+}
+.image-3 {
+	background-image: url(./img/rice.jpg);
+}
+
+.description {
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h2 {
+	text-transform: uppercase;
+	letter-spacing: 1.1px;
+	margin-bottom: 5px;
+}
+
+hr {
+	width: 100%;
+	height: 1px;
+	border: none;
+	background-image: linear-gradient(to left, transparent, #a24821, transparent);
+	margin-bottom: 30px;
+}
+
+.icons {
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	font-size: 12px;
+	letter-spacing: 0.8px;
+}
