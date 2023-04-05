@@ -1,91 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Recipe</title>
-    <script
-      src="https://kit.fontawesome.com/c914994ca5.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body>
-    <header class="header-recipe">
-      <div class="nav">
-        <a href="./index.html"
-          ><div class="back"><i class="fa-solid fa-arrow-left fa-2xl"></i></div
-        ></a>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Recipe</title>
+		<script src="https://kit.fontawesome.com/c914994ca5.js" crossorigin="anonymous"></script>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+			integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
+	</head>
+	<body>
+		<header class="header-recipe">
+			<div class="nav">
+				<a href="./dashboard.html"
+					><div class="back"><i class="fa-solid fa-arrow-left fa-2xl"></i></div
+				></a>
 
-        <div class="search">
-          <input
-            type="text"
-            name="search"
-            id="search"
-            placeholder="Search..."
-          />
-          <button class="btn-search">
-            <i class="fa-solid fa-magnifying-glass search-button"></i>
-          </button>
-        </div>
-        <div class="user"></div>
-      </div>
-      <div class="bar-bottom"></div>
-    </header>
-    <h1 class="recipe-title">Chicken Tikka Masala</h1>
-    <div class="recipe-container">
-      <div class="ingredient-description">
-        <h1 class="ingredient-title">Ingredient</h1>
-        <ul class="ingredient">
-          <li>4 tbsp vegetable oil</li>
-          <li>25g butter</li>
-          <li>4 onions, roughly chopped</li>
-          <li>
-            6 tbsp chicken tikka masala paste (use shop-bought or make your own
-            – see recipe, below)
-          </li>
-          <li>2 red peppers, deseeded and cut into chunks</li>
-          <li>8 boneless, skinless chicken breasts, cut into 2.5cm cubes</li>
-          <li>2 x 400g cans chopped tomatoes</li>
-        </ul>
-      </div>
-      <div class="method-description">
-        <h1 class="method-title">Method</h1>
-        <h3 class="steps">Step 1</h3>
-        <p class="content">
-          Heat the vegetable oil and butter in a large, lidded casserole on the
-          hob, then add the onions and a pinch of salt. Cook for 15-20 mins
-          until soft and golden.
-        </p>
-        <h3 class="steps">Step 2</h3>
-        <p class="content">
-          Add the tikka masala paste and peppers, then cook for 5 mins more to
-          cook out the rawness of the spices.
-        </p>
-        <h3 class="steps">Step 3</h3>
-        <p class="content">
-          Add the chicken breasts and stir well to coat in the paste. Cook for 2
-          mins, then tip in the chopped tomatoes, tomato purée and 200ml water.
-          Cover with a lid and gently simmer for 15 mins, stirring occasionally,
-          until the chicken is cooked through.
-        </p>
-        <h3 class="steps">Step 4</h3>
-        <p class="content">
-          Remove the lid, stir through the mango chutney, double cream and
-          natural yogurt, then gently warm through. Season, then set aside
-          whatever you want to freeze. Will keep, in an airtight container, in
-          the freezer for up to three months. Scatter the rest with coriander
-          leaves and serve with basmati rice and naan bread.
-        </p>
-      </div>
-    </div>
-  </body>
+				<div class="search">
+					<input type="text" name="search" id="search" placeholder="Search..." />
+					<button class="btn-search">
+						<i class="fa-solid fa-magnifying-glass search-button"></i>
+					</button>
+				</div>
+				<div class="user"></div>
+			</div>
+			<div class="bar-bottom"></div>
+		</header>
+		<section class="section">
+			<h1 class="recipe-title">Chicken Tikka Masala</h1>
+			<div class="icons-recipe">
+				<i class="icons-icon fa-regular fa-clock"> 40min</i>
+				<i class="icons-icon fa-solid fa-chart-simple"> Easy</i>
+				<i class="icons-icon fa-solid fa-x"> Gluten Free</i>
+			</div>
+			<div class="recipe-container">
+				<div class="ingredient-description">
+					<h1 class="ingredient-title">Ingredient</h1>
+					<ul class="ingredient">
+						<li>4 tbsp vegetable oil</li>
+						<li>25g butter</li>
+						<li>4 onions, roughly chopped</li>
+						<li>6 tbsp chicken tikka masala paste (use shop-bought or make your own – see recipe, below)</li>
+						<li>2 red peppers, deseeded and cut into chunks</li>
+						<li>8 boneless, skinless chicken breasts, cut into 2.5cm cubes</li>
+						<li>2 x 400g cans chopped tomatoes</li>
+					</ul>
+				</div>
+				<div class="method-description">
+					<h2 class="method-title">Method</h2>
+					<h3 class="steps">Step 1</h3>
+					<p class="content">
+						Heat the vegetable oil and butter in a large, lidded casserole on the hob, then add the onions and a pinch of salt. Cook for 15-20 mins until soft
+						and golden.
+					</p>
+					<h3 class="steps">Step 2</h3>
+					<p class="content">Add the tikka masala paste and peppers, then cook for 5 mins more to cook out the rawness of the spices.</p>
+					<h3 class="steps">Step 3</h3>
+					<p class="content">
+						Add the chicken breasts and stir well to coat in the paste. Cook for 2 mins, then tip in the chopped tomatoes, tomato purée and 200ml water. Cover
+						with a lid and gently simmer for 15 mins, stirring occasionally, until the chicken is cooked through.
+					</p>
+					<h3 class="steps">Step 4</h3>
+					<p class="content">
+						Remove the lid, stir through the mango chutney, double cream and natural yogurt, then gently warm through. Season, then set aside whatever you want
+						to freeze. Will keep, in an airtight container, in the freezer for up to three months. Scatter the rest with coriander leaves and serve with basmati
+						rice and naan bread.
+					</p>
+				</div>
+			</div>
+		</section>
+	</body>
 </html>
